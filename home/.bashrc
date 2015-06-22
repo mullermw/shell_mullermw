@@ -16,6 +16,10 @@
 [[ $- = *i* ]] || return
 #source bashlib
 
+#-------------------------#
+# ALIASES - SHELL         #
+#-------------------------#
+alias sou="source ~/.profile"
 
 #-------------------------#
 # ALIASSES - FILESYSTEM   #
@@ -36,7 +40,6 @@ fi
 alias ll="ls -lh"
 alias l=" ll -a"
 alias df="nice df -h"
-
 
 #-------------------------#
 # ALIASSES - APPLICATIONS #
@@ -60,6 +63,7 @@ alias gbr="git branch"
 alias gs="git svn"
 alias em="emacs -nw"
 alias h="history"
+alias clean="rm -f *~ .*~ #*#"
 
 #-------------------------#
 # ALIASSES - SYSTEM       #

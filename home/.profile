@@ -91,7 +91,6 @@ export MANPAGER=$PAGER
 #-----------------------------#
 # ENVIRONMENT - LOCAL CONFIG  #
 #-----------------------------#
-export storia='11566@ch-s011.rsync.net'
 [ -r "$HOME/.profile.local" ] && \
     . "$HOME/.profile.local"
 [ "$BASH_VERSION" -a -z "$POSIXLY_CORRECT" ] && . "$HOME/.bashrc"
